@@ -1,0 +1,9 @@
+box: 
+  forwarded_ports: 
+    guest: 80
+    host: 8080
+  ip: 10.10.10.10
+  hostname: "devbox"
+  backendPHP: true
+  backendNodeJS: false
+
